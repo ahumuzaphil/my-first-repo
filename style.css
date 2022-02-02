@@ -1,0 +1,30 @@
+/*external css*/
+
+/*universal selector*/*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*element selector*/
+body{
+    background-color: red;
+    color:greenyellow;
+
+}
+/*id selector*/
+#interest{
+    color:orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200px;
+
+}
+/*class selector*/
+/*grouping selector*/
+h3,h4,{
+    color:rgb(255,0,221)
+    font-size:100px;
+
+    /*class elment*/
+    ul li{
+        color:rgb(0, 0, 0);
+        font size:70px;
+    }
+}
