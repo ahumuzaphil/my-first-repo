@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(120deg,lightblue,lightgreen);
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image: linear-gradient(120deg,lightgreen,lightblue);
+    border-radius: 7px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 90px 50px 5px ;
+}
+h1{
+    font-size: 2.5rem;
+    padding: 20px 50px 12px 100px;
+}
+form input,form button{
+    outline: none;
+    background: none;
+    border: none;
+}
+form{
+    display: flex;
+    justify-item: center;
+    align-items: center;
+}
+#task_el{
+    background-color: azure;
+    border-radius: 3px;
+    padding: 13px;
+    margin: 20px ;
+    width: 20rem;
+}
+#submit_el{
+    background-color: rgb(130, 228, 130);
+    border-radius: 3px;
+    width: 7rem;
+    height: 2.6rem;
+    font-size: 15px;
+    font-weight: 2rem;
+}
+#submit_el:hover{
+    background-color: rgb(46, 142, 173);
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ul_el{
+    min-width: 30%;
+    list-style: none;
+}
+.todo_el{
+    margin: 0.5rem;
+    width: 300px;
+    padding: 10px;
+    background: azure;
+    border-radius: 3px;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+button{
+    outline: none;
+    background: none;
+    border: none;
+}
+.btn_el{
+    font-weight: 5rem;
+    color: rgb(73, 207, 73);
+}
+
+
